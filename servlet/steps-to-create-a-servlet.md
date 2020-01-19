@@ -6,6 +6,24 @@ It defines that where to put the different types of files so that web container 
 
 ![](../.gitbook/assets/image%20%285%29.png)
 
+### War File
+
+ A **war \(web archive\) File** contains files of a web project. It may have servlet, xml, jsp, image, html, css, js etc. files. 
+
+```markup
+jar -cvf projectname.war *  
+```
+
+Here, **-c** is used to create file, **-v** to generate the verbose output and **-f** to specify the arhive file name.
+
+The **\* \(asterisk\) symbol** signifies that all the files of this directory \(including sub directory\).
+
+ To extract the war file, you need to use **-x switch** of **jar tool** of JDK. Let's see the command to extract the war file.
+
+```bash
+jar -xvf projectname.war  
+```
+
 ## 2. Create a Servlet
 
  There are three ways to create the servlet.
@@ -54,5 +72,16 @@ Put the java file in any folder. After compiling the java file, paste the class 
 </web-app>  
 ```
 
+### load on startup in web.xml
 
+The **load-on-startup** element of **web-app** loads the servlet at the time of deployment or server start if value is positive. It is also known as **pre initialization of servlet**.
+
+You can pass positive and negative value for the servlet. 
+
+* If you pass the positive value, the lower integer value servlet will be loaded before the higher integer value servlet. In other words, container loads the servlets in ascending integer value. The 0 value will be loaded first then 1, 2, 3 and so on.
+* If you pass the negative value, servlet will be loaded at request time, at first request.
+
+**Advantage of load-on-startup element**
+
+As you know well, servlet is loaded at first request. That means it consumes more time at first request. If you specify the load-on-startup in web.xml, servlet will be loaded at project deployment time or server start. So, it will take **less time** for responding to first request.
 
