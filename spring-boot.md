@@ -22,3 +22,20 @@ public class Application {
 * `@ComponentScan`: enable `@Component` scan on the package where the application is located \(see [the best practices](https://docs.spring.io/spring-boot/docs/2.2.4.RELEASE/reference/html/using-spring-boot.html#using-boot-structuring-your-code)\)
 * `@Configuration`: allow to register extra beans in the context or import additional configuration classes
 
+## Maven
+
+**Inheriting the Starter Parent**
+
+ To configure your project to inherit from the `spring-boot-starter-parent`, set the `parent` as follows:
+
+```java
+<!-- Inherit defaults from Spring Boot -->
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.4.RELEASE</version>
+</parent>
+```
+
+
+
