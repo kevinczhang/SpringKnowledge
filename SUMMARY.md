@@ -17,5 +17,6 @@
     * [Validator](spring-framework/spring-mvc/validator.md)
   * [Spring Data JPA](spring-framework/spring-data-jpa.md)
   * [Spring Security](spring-framework/spring-security.md)
-* [Spring Boot](spring-boot.md)
+* [Spring Boot](spring-boot/README.md)
+  * [Annotations](spring-boot/annotations.md)
 
