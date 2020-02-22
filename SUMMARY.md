@@ -19,4 +19,6 @@
   * [Spring Security](spring-framework/spring-security.md)
 * [Spring Boot](spring-boot/README.md)
   * [Annotations](spring-boot/annotations.md)
+  * [Application Properties](spring-boot/application-properties.md)
+  * [Spring Boot Starters](spring-boot/spring-boot-starters.md)
 

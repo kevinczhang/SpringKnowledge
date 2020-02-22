@@ -1,3 +1,9 @@
+---
+description: >-
+  Spring Boot Annotations is a form of metadata that provides data about a
+  program.
+---
+
 # Annotations
 
 ## Core Spring Framework Annotations
