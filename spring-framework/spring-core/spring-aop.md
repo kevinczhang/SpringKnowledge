@@ -36,3 +36,25 @@ AOP provides the way to dynamically add the cross-cutting concern before, after 
 
 It makes easy to maintain code in the present and future as well. You can add/remove concerns without recompiling complete source code simply by changing configuration files \(if you are applying aspects suing XML configuration\).
 
+## Spring AOP AspectJ
+
+The **Spring Framework** recommends you to use **Spring AspectJ AOP implementation** over the Spring 1.2 old style dtd based AOP implementation because it provides you more control and it is easy to use.
+
+There are two ways to use Spring AOP AspectJ implementation:
+
+1. By annotation: We are going to learn it here.
+2. By xml configuration \(schema based\): We will learn it in next page.
+
+Spring AspectJ AOP implementation provides many annotations:
+
+1. **@Aspect** declares the class as aspect.
+2. **@Pointcut** declares the pointcut expression.
+
+The annotations used to create advices are given below:
+
+1. **@Before** declares the before advice. It is applied before calling the actual method.
+2. **@After** declares the after advice. It is applied after calling the actual method and before returning result.
+3. **@AfterReturning** declares the after returning advice. It is applied after calling the actual method and before returning result. But you can get the result value in the advice.
+4. **@Around** declares the around advice. It is applied before and after calling the actual method.
+5. **@AfterThrowing** declares the throws advice. It is applied if actual method throws exception.
+

@@ -20,7 +20,7 @@
 * [Spring Boot](spring-boot/README.md)
   * [Annotations](spring-boot/annotations.md)
   * [Application Properties](spring-boot/application-properties.md)
-  * [Spring Boot Starters](spring-boot/spring-boot-starters/README.md)
+  * [Spring Boot Starters](spring-boot/spring-boot-starters.md)
     * [Spring Boot Starter Web](spring-boot/spring-boot-starters/spring-boot-starter-web.md)
     * [Spring Data JPA](spring-boot/spring-boot-starters/spring-data-jpa.md)
     * [Spring Boot Starter Actuator](spring-boot/spring-boot-starters/spring-boot-starter-actuator.md)
