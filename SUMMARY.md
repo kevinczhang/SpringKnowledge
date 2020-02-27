@@ -10,6 +10,7 @@
   * [Servlet Filter](servlet/servlet-filter.md)
 * [JSP](jsp/README.md)
   * [JSP Scripting elements](jsp/jsp-scripting-elements.md)
+  * [JSP Implicit Objects](jsp/jsp-implicit-objects.md)
 * [Spring framework](spring-framework/README.md)
   * [Spring Core](spring-framework/spring-core/README.md)
     * [Spring Bean](spring-framework/spring-core/spring-bean.md)
