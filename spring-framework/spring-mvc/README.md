@@ -2,7 +2,7 @@
 
 Spring MVC is based on Model-View-Controller architecture.
 
-![Spring MVC architecture ](../../.gitbook/assets/image%20%286%29.png)
+![Spring MVC architecture ](../../.gitbook/assets/image%20%287%29.png)
 
 `DispatcherServlet` is the front controller class to take all requests and start processing them. We have to configure it in web.xml file. It’s job is to pass request to appropriate controller class and send the response back when view pages have rendered the response page.
 

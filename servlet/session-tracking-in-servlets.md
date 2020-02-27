@@ -22,7 +22,7 @@ In such case, container creates a session id for each user.The container uses th
 1. bind objects
 2. view and manipulate information about a session, such as the session identifier, creation time, and last accessed time.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 #### How to get the HttpSession object ?
 
