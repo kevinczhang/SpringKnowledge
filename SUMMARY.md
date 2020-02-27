@@ -12,6 +12,7 @@
   * [JSP Scripting elements](jsp/jsp-scripting-elements.md)
   * [JSP Implicit Objects](jsp/jsp-implicit-objects.md)
   * [JSP directives](jsp/jsp-directives.md)
+  * [JSP Action Tags](jsp/jsp-action-tags.md)
 * [Spring framework](spring-framework/README.md)
   * [Spring Core](spring-framework/spring-core/README.md)
     * [Spring Bean](spring-framework/spring-core/spring-bean.md)
