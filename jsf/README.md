@@ -6,6 +6,8 @@ description: >-
 
 # JSF
 
+Best tutorial for JSF: [https://www.tutorialspoint.com/jsf/jsf\_composite\_components.htm](https://www.tutorialspoint.com/jsf/jsf_composite_components.htm)
+
 The JSF API provides components \(inputText, commandButton etc\) and helps to manage their states. It also provides server-side validation, data conversion, defining page navigation, provides extensibility, supports for internationalization, accessibility etc.
 
 The JSF Tag libraries are used to add components on the web pages and connect components with objects on the server. It also contains tag handlers that implements the component tag.
