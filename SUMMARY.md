@@ -16,6 +16,8 @@
   * [Expression Language](jsp/expression-language.md)
 * [JSF](jsf/README.md)
   * [Managed Beans](jsf/managed-beans.md)
+  * [Page Navigation](jsf/page-navigation.md)
+  * [Basic Tags](jsf/basic-tags.md)
 * [Spring framework](spring-framework/README.md)
   * [Spring Core](spring-framework/spring-core/README.md)
     * [Spring Bean](spring-framework/spring-core/spring-bean.md)
