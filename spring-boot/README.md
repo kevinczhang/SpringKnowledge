@@ -8,7 +8,7 @@ description: >-
 
 Each release of Spring Boot provides a **curated list of dependencies that it supports**. In practice, you do **not need to provide a version for any of these dependencies** in your build configuration, as Spring Boot manages that for you. When you upgrade Spring Boot itself, these dependencies are upgraded as well in a consistent way.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 In Spring Boot, there is no requirement for XML configuration \(deployment descriptor\). It uses convention over configuration software design paradigm that means it decreases the effort of the developer.
 

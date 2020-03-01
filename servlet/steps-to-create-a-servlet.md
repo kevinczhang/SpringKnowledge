@@ -4,7 +4,7 @@
 
 It defines that where to put the different types of files so that web container may get the information and respond to the client.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 ### War File
 
