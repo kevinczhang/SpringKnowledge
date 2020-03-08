@@ -32,13 +32,13 @@ public class NavigationController implements Serializable {
 <h:form> 
    <h3> Using Managed Bean</h3>  
    <h:commandButton action = "#{navigationController.moveToPage1}" 
-   value = "Page1" /glt; 
+   value = "Page1" />; 
 </h:form> 
 ```
 
 ## Resolving Navigation Based on from-action
 
-```text
+```java
 public String processPage1() { 
    return "page"; 
 } 
@@ -49,7 +49,7 @@ public String processPage2() {
 
  To resolve views, define the following navigation rules in **faces-config.xml**
 
-```text
+```markup
 <navigation-rule> 
    <from-view-id>home.xhtml</from-view-id> 
    
@@ -74,7 +74,7 @@ JSF by default performs a server page forward while navigating to another page a
 
 To enable the page redirection, append **faces-redirect=true** at the end of the view name.
 
-```text
+```markup
 <h:form>
    <h3>Forward</h3>
    <h:commandButton action = "page1" value = "Page1" />
