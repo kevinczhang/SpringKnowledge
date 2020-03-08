@@ -4,9 +4,9 @@ JSF provides a standard HTML tag library. These tags get rendered into correspon
 
 For these tags you need to use the following namespaces of URI in html node.
 
-```text
+```markup
 <html xmlns = "http://www.w3.org/1999/xhtml" 
-   xmlns:h = "http://java.sun.com/jsf/html">
+    xmlns:h = "http://java.sun.com/jsf/html">
 ```
 
 <table>
