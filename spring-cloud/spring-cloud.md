@@ -15,7 +15,7 @@ description: >-
 
 Spring Cloud configuration components provide server-side and client-side support for externalized configuration in a distributed system.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### Service Discovery
 
@@ -29,7 +29,7 @@ There are **two** discovery patterns: **Client-side discovery** and **Server-sid
 * **Client-side discovery:** In the Client-side discovery, client is responsible for determining the network location of available services. The client uses a **load-balancing algorithm** to select one of the available services and make a request. **Netflix OSS** is an example of a client-side discovery pattern.
 * **Server-side discovery:** In the server-side discovery, the client makes an HTTP request to a service through a load balancer. The load balancer contacts to service registry and route each request to an available service instance. Similar to client-side discovery, service instances are registered and deregistered with the service registry. The **AWS ELB** \(Elastic Load Balancer\) is an example of server-side discovery. ELB balances the external traffic from the internet.
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ### Circuit Breakers
 

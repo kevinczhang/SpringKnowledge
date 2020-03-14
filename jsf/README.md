@@ -25,7 +25,7 @@ JSF application life cycle consists of six phases which are as follows:
 * Invoke application phase; process events
 * Render response phase
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ### 1\) Execute Phase
 

@@ -43,5 +43,7 @@
   * [Multi-Module Project](spring-cloud/spring-boot/multi-module-project.md)
   * [Packaging](spring-cloud/spring-boot/packaging.md)
   * [Auto-configuration](spring-cloud/spring-boot/auto-configuration.md)
+  * [Database](spring-cloud/spring-boot/database/README.md)
+    * [Spring Boot JPA](spring-cloud/spring-boot/database/spring-boot-jpa.md)
 * [Spring Cloud](spring-cloud/spring-cloud.md)
 
