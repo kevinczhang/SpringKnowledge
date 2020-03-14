@@ -49,6 +49,7 @@
     * [Spring Boot JDBC](spring-cloud/spring-boot/database/spring-boot-jdbc.md)
     * [Spring Boot Repository](spring-cloud/spring-boot/database/spring-boot-repository.md)
   * [Spring Boot Caching](spring-cloud/spring-boot/spring-boot-caching/README.md)
-    * [Spring Boot Cache Annotations](spring-cloud/spring-boot/spring-boot-caching/spring-boot-cache-annotations.md)
+    * [Cache Annotations](spring-cloud/spring-boot/spring-boot-caching/spring-boot-cache-annotations.md)
+    * [Cache Provider](spring-cloud/spring-boot/spring-boot-caching/cache-provider.md)
 * [Spring Cloud](spring-cloud/spring-cloud.md)
 

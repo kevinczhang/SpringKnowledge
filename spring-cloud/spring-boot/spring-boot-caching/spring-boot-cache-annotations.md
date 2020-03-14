@@ -1,4 +1,4 @@
-# Spring Boot Cache Annotations
+# Cache Annotations
 
 ## @EnableCaching
 
