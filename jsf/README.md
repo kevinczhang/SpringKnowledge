@@ -12,7 +12,7 @@ The JSF API provides components \(inputText, commandButton etc\) and helps to ma
 
 The JSF Tag libraries are used to add components on the web pages and connect components with objects on the server. It also contains tag handlers that implements the component tag.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ## JavaServer Faces Lifecycle
 
@@ -25,7 +25,7 @@ JSF application life cycle consists of six phases which are as follows:
 * Invoke application phase; process events
 * Render response phase
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ### 1\) Execute Phase
 
