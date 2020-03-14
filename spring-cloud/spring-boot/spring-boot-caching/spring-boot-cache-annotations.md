@@ -112,3 +112,12 @@ public Employee updateEmp(ID id, EmployeeData data)
 }
 ```
 
+## Spring Boot Cache Dependency
+
+```java
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-cache</artifactId>  
+</dependency>   
+```
+
