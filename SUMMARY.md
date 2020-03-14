@@ -45,5 +45,7 @@
   * [Auto-configuration](spring-cloud/spring-boot/auto-configuration.md)
   * [Database](spring-cloud/spring-boot/database/README.md)
     * [Spring Boot JPA](spring-cloud/spring-boot/database/spring-boot-jpa.md)
+    * [Spring Boot JDBC](spring-cloud/spring-boot/database/spring-boot-jdbc.md)
+    * [Spring Boot Repository](spring-cloud/spring-boot/database/spring-boot-repository.md)
 * [Spring Cloud](spring-cloud/spring-cloud.md)
 

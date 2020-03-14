@@ -8,7 +8,7 @@ description: >-
 
 Application security boils down to two more or less independent problems: authentication \(who are you?\) and authorization \(what are you allowed to do?\).
 
-![Spring security modules](../../.gitbook/assets/image%20%2813%29.png)
+![Spring security modules](../../.gitbook/assets/image%20%2815%29.png)
 
 ## Steps to config jwt authentication in cpms
 

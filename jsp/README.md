@@ -18,11 +18,11 @@ The JSP pages follow these phases:
 * Request processing \( the container invokes \_jspService\(\) method\).
 * Destroy \( the container invokes jspDestroy\(\) method\).
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ## The Directory structure of JSP
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 
 
