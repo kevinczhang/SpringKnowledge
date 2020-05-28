@@ -51,5 +51,11 @@
   * [Spring Boot Caching](spring-cloud/spring-boot/spring-boot-caching/README.md)
     * [Cache Annotations](spring-cloud/spring-boot/spring-boot-caching/spring-boot-cache-annotations.md)
     * [Cache Provider](spring-cloud/spring-boot/spring-boot-caching/cache-provider.md)
-* [Spring Cloud](spring-cloud/spring-cloud.md)
+* [Spring Cloud](spring-cloud/spring-cloud/README.md)
+  * [Eureka](spring-cloud/spring-cloud/eureka.md)
+  * [Ribbon](spring-cloud/spring-cloud/ribbon.md)
+  * [Hystrix](spring-cloud/spring-cloud/hystrix.md)
+  * [Feign](spring-cloud/spring-cloud/feign.md)
+  * [Zuul](spring-cloud/spring-cloud/zuul.md)
+  * [Config](spring-cloud/spring-cloud/config.md)
 
