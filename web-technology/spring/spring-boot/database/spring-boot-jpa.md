@@ -22,11 +22,11 @@ JPA is simpler, cleaner, and less labor-intensive than JDBC, SQL, and hand-writt
 * **EntityTransaction:** It has a **one-to-one** relationship with the EntityManager class. For each EntityManager, operations are maintained by EntityTransaction class.
 * **Query:** It is an interface that is implemented by each JPA vendor to obtain relation objects that meet the criteria.
 
-![](../../../.gitbook/assets/image%20%2819%29.png)
+![](../../../../.gitbook/assets/image%20%2819%29.png)
 
 ### JPA Class Relationships
 
-![](../../../.gitbook/assets/image%20%2811%29.png)
+![](../../../../.gitbook/assets/image%20%2811%29.png)
 
 
 

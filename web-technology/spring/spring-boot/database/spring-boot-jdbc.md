@@ -21,7 +21,7 @@ private NamedParameterJdbcTemplate jdbcTemplate;
 
  **JDBC connection pooling** is a mechanism that manages **multiple** database connection requests. In other words, it facilitates connection reuse, a memory cache of database connections, called a **connection pool.** A connection pooling module maintains it as a layer on top of any standard JDBC driver product.
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](../../../../.gitbook/assets/image%20%282%29.png)
 
 
 

@@ -8,7 +8,7 @@ description: Spring Framework is one of the most popular Java EE framework.
 
 Spring Framework is divided into a number of separate modules. Core, Web and Data Access are the most important modules. There are some other Miscellaneous modules.
 
-![Spring Framework Architecture](../../.gitbook/assets/image%20%282%29%20%281%29.png)
+![Spring Framework Architecture](../../../.gitbook/assets/image%20%282%29%20%281%29.png)
 
 ## Core Components
 

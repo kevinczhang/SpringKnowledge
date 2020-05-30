@@ -23,7 +23,7 @@ public interface StudentRepository extends CrudRepository<Student, Integer>
 
 JpaRepository provides JPA related methods such as flushing, persistence context, and deletes a record in a batch.
 
-![](../../../.gitbook/assets/image%20%289%29.png)
+![](../../../../.gitbook/assets/image%20%289%29.png)
 
 ## CrudRepository vs. JpaRepository
 
