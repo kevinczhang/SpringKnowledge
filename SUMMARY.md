@@ -1,24 +1,27 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Servlet](servlet/README.md)
-  * [Steps to create a servlet](servlet/steps-to-create-a-servlet.md)
-  * [Servlet collaboration](servlet/servlet-collaboration.md)
-  * [ServletConfig and ServletContext](servlet/servletconfig-and-servletcontext.md)
-  * [Session Tracking in Servlets](servlet/session-tracking-in-servlets.md)
-  * [Event and Listener](servlet/event-and-listener.md)
-  * [Servlet Filter](servlet/servlet-filter.md)
-* [JSP](jsp/README.md)
-  * [JSP Scripting elements](jsp/jsp-scripting-elements.md)
-  * [JSP Implicit Objects](jsp/jsp-implicit-objects.md)
-  * [JSP directives](jsp/jsp-directives.md)
-  * [JSP Action Tags](jsp/jsp-action-tags.md)
-  * [Expression Language](jsp/expression-language.md)
-* [JSF](jsf/README.md)
-  * [Managed Beans](jsf/managed-beans.md)
-  * [Page Navigation](jsf/page-navigation.md)
-  * [Basic Tags](jsf/basic-tags.md)
-  * [Other tags](jsf/other-tags.md)
+
+## Web basics
+
+* [Servlet](web-basics/servlet/README.md)
+  * [Steps to create a servlet](web-basics/servlet/steps-to-create-a-servlet.md)
+  * [Servlet collaboration](web-basics/servlet/servlet-collaboration.md)
+  * [ServletConfig and ServletContext](web-basics/servlet/servletconfig-and-servletcontext.md)
+  * [Session Tracking in Servlets](web-basics/servlet/session-tracking-in-servlets.md)
+  * [Event and Listener](web-basics/servlet/event-and-listener.md)
+  * [Servlet Filter](web-basics/servlet/servlet-filter.md)
+* [JSP](web-basics/jsp/README.md)
+  * [JSP Scripting elements](web-basics/jsp/jsp-scripting-elements.md)
+  * [JSP Implicit Objects](web-basics/jsp/jsp-implicit-objects.md)
+  * [JSP directives](web-basics/jsp/jsp-directives.md)
+  * [JSP Action Tags](web-basics/jsp/jsp-action-tags.md)
+  * [Expression Language](web-basics/jsp/expression-language.md)
+* [JSF](web-basics/jsf/README.md)
+  * [Managed Beans](web-basics/jsf/managed-beans.md)
+  * [Page Navigation](web-basics/jsf/page-navigation.md)
+  * [Basic Tags](web-basics/jsf/basic-tags.md)
+  * [Other tags](web-basics/jsf/other-tags.md)
 
 ## Spring <a id="spring-cloud"></a>
 

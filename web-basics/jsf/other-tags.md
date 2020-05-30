@@ -62,7 +62,9 @@ JSF provides special tags to create common layout for a web application called f
       </td>
     </tr>
   </tbody>
-</table>## Convertor Tags
+</table>
+
+## Convertor Tags
 
 JSF provides inbuilt convertors to convert its UI component's data to object used in a managed bean and vice versa. For example, these tags can convert a text into date object and can validate the format of input as well. For these tags, you need to use the following namespaces of URI in html node.
 
@@ -105,7 +107,9 @@ JSF provides inbuilt convertors to convert its UI component's data to object use
       </td>
     </tr>
   </tbody>
-</table>## Validator Tags
+</table>
+
+## Validator Tags
 
 JSF provides inbuilt validators to validate its UI components. These tags can validate the length of the field, the type of input which can be a custom object. For these tags you need to use the following namespaces of URI in html node.
 
@@ -165,3 +169,4 @@ JSF provides inbuilt validators to validate its UI components. These tags can va
     </tr>
   </tbody>
 </table>
+

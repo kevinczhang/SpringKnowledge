@@ -90,7 +90,9 @@ Scope annotations set the scope into which the managed bean will be placed. If t
       </td>
     </tr>
   </tbody>
-</table>## @ManagedProperty Annotation
+</table>
+
+## @ManagedProperty Annotation
 
  JSF is a simple static Dependency Injection \(DI\) framework. Using **@ManagedProperty** annotation, a managed bean's property can be injected in another managed bean.
 
