@@ -122,5 +122,51 @@ ValueExtractor condExtractor = new ConditionalExtractor(filter, extractor, true)
 cache.addIndex(condExtractor, true, null);
 ```
 
+## Performing Batch Queries
+
+ Using the `key set` form of the queries – combined with `getAll()` – reduces memory consumption since the entire entry set is not deserialized on the client simultaneously. It also takes advantage of near caching.
+
+```java
+// key set(Filter filter)
+Set setKeys = cache.key set(filter);
+Set setPageKeys = new HashSet();
+int PAGE_SIZE = 100;
+for (Iterator iter = setKeys.iterator(); iter.hasNext();)
+    {
+    setPageKeys.add(iter.next());
+    if (setKeyPage.size() == PAGE_SIZE || !iter.hasNext())
+        {
+        // get a block of values
+        Map mapResult = cache.getAll(setPageKeys);
+
+        // process the block
+        // ...
+
+        setPageKeys.clear();
+        }
+    }
+```
+
+## Performing Queries on Multi-Value Attributes
+
+ Coherence supports indexing and querying of multi-value attributes including collections and arrays. When an object is indexed, Coherence verifies if it is a multi-value type, and then indexes it as a collection rather than a singleton. The [`ContainsAllFilter`](https://docs.oracle.com/cd/E24290_01/coh.371/e22843/toc.htm), [`ContainsAnyFilter`](https://docs.oracle.com/cd/E24290_01/coh.371/e22843/toc.htm) and [`ContainsFilter`](https://docs.oracle.com/cd/E24290_01/coh.371/e22843/toc.htm) are used to query against these collections.
+
+```java
+Set searchTerms = new HashSet();
+searchTerms.add("java");
+searchTerms.add("clustering");
+searchTerms.add("books");
+
+// The cache contains instances of a class "Document" which has a method
+// "getWords" which returns a Collection<String> containing the set of
+// words that appear in the document.
+Filter filter = new ContainsAllFilter("getWords", searchTerms);
+
+Set entrySet = cache.entrySet(filter);
+
+// iterate through the search results
+// ...
+```
+
 
 
