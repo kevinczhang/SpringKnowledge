@@ -21,21 +21,21 @@ A distributed, or partitioned, cache is a clustered, fault-tolerant cache that h
 
 #### Get and put operations:
 
-![Get Operations in a Distributed Cache](.gitbook/assets/image%20%2820%29.png)
+![Get Operations in a Distributed Cache](../.gitbook/assets/image%20%2820%29.png)
 
-![Put Operations in a distributed Cache Environment](.gitbook/assets/image%20%2821%29.png)
+![Put Operations in a distributed Cache Environment](../.gitbook/assets/image%20%2821%29.png)
 
-![Failover in a Distributed Cache](.gitbook/assets/image%20%2814%29.png)
+![Failover in a Distributed Cache](../.gitbook/assets/image%20%2814%29.png)
 
-![Local Storage in a Distributed Cache](.gitbook/assets/image%20%2823%29.png)
+![Local Storage in a Distributed Cache](../.gitbook/assets/image%20%2823%29.png)
 
 ### Replicated Caches
 
 A replicated cache is a clustered, fault tolerant cache where data is fully replicated to every member in the cluster.
 
-![Get Operation in a Replicated Cache](.gitbook/assets/image%20%2815%29.png)
+![Get Operation in a Replicated Cache](../.gitbook/assets/image%20%2815%29.png)
 
-![Put Operation in a Replicated Cache](.gitbook/assets/image%20%2825%29.png)
+![Put Operation in a Replicated Cache](../.gitbook/assets/image%20%2825%29.png)
 
 ### Optimistic Caches
 
@@ -45,15 +45,15 @@ An optimistic cache is a clustered cache implementation similar to the replicate
 
 A near cache is a hybrid cache; it typically fronts a distributed cache or a remote cache with a local cache.Near cache invalidates front cache entries, using a configured invalidation strategy, and provides excellent performance and synchronization. Near cache backed by a partitioned cache offers zero-millisecond local access for repeat data access, while enabling concurrency and ensuring coherency and fail over, effectively combining the best attributes of replicated and partitioned caches.
 
-![Put Operations in a Near Cache](.gitbook/assets/image%20%2824%29.png)
+![Put Operations in a Near Cache](../.gitbook/assets/image%20%2824%29.png)
 
-![Get Operations in a Near Cache](.gitbook/assets/image%20%2822%29.png)
+![Get Operations in a Near Cache](../.gitbook/assets/image%20%2822%29.png)
 
 ### View Caches
 
 A view cache is a clustered, fault tolerant cache that provides a local in-memory materialized view of data stored in a distributed and partitioned cache.
 
-![Put Operations in a View Cache](.gitbook/assets/image%20%2817%29.png)
+![Put Operations in a View Cache](../.gitbook/assets/image%20%2817%29.png)
 
 ### Local Caches
 

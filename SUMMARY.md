@@ -63,5 +63,6 @@
 
 ## Caching <a id="java-caching"></a>
 
-* [Coherence](coherence.md)
+* [Coherence](coherence/README.md)
+  * [Querying](coherence/querying.md)
 
