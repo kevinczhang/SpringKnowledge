@@ -24,6 +24,7 @@
     * [Basic Tags](web-technology/basics/jsf/basic-tags.md)
     * [Other tags](web-technology/basics/jsf/other-tags.md)
 * [Spring](web-technology/spring/README.md)
+  * [Spring Batch](web-technology/spring/spring-batch.md)
   * [Spring framework](web-technology/spring/spring-framework/README.md)
     * [Spring Core](web-technology/spring/spring-framework/spring-core/README.md)
       * [Spring Bean](web-technology/spring/spring-framework/spring-core/spring-bean.md)
