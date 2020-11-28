@@ -8,6 +8,8 @@ description: >-
 
 ## if
 
+### Example 1
+
 ```markup
 <select id="findActiveBlogWithTitleLike"
      resultType="Blog">
@@ -27,6 +29,34 @@ description: >-
       "  </if>",
       "</script>"})
 List<Blog> findActiveBlogWithTitleLike(String title);
+```
+
+### Example 2
+
+```java
+<select id="findActiveBlogLike"
+     resultType="Blog">
+  SELECT * FROM BLOG WHERE state = ‘ACTIVE’
+  <if test="title != null">
+    AND title like #{title}
+  </if>
+  <if test="author != null and author.name != null">
+    AND author_name like #{author.name}
+  </if>
+</select>
+```
+
+```java
+@Select({"<script>",
+      "SELECT * FROM BLOG WHERE state = 'ACTIVE'",
+      "  <if test="title != null">",
+      "    AND title like #{title}",
+      "  </if>",
+      "  <if test="author != null and author.name != null">",
+      "    AND author_name like #{author.name}",
+      "  </if>",
+      "</script>"})
+public List<Blog> findActiveBlogWithTitleLike(String title);
 ```
 
 ## choose, when, otherwise
