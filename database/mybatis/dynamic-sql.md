@@ -75,3 +75,13 @@ public List<Blog> findActiveBlogWithTitleLike(String title);
     void updateAuthorValues(Author author);
 ```
 
+## **Stored Procedure**
+
+```java
+@Select(value= "{CALL getPersonByProc(#{personId,
+  mode=IN, jdbcType=INTEGER})}")
+@Options(statementType = StatementType.CALLABLE)
+public Person getPersonByProc(Integer personId);
+
+```
+
