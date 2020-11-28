@@ -1,10 +1,8 @@
 # Annotations
 
+## _**@Insert, @Select, @Update, @Delete**_
 
-
-* _**@Insert, @Select, @Update, @Delete** –_ those annotations represent SQL statements to be executed by calling annotated methods:
-
-
+Those annotations represent SQL statements to be executed by calling annotated methods:
 
 ```java
 @Insert("Insert into person(name) values (#{name})")
@@ -21,7 +19,9 @@ public void deletePersonById(Integer personId);
 public Person getPerson(Integer personId);
 ```
 
-* _**@Results**_ – it is a list of result mappings that contain the details of how the database columns are mapped to Java class attributes:
+## _**@Results**_ 
+
+It is a list of result mappings that contain the details of how the database columns are mapped to Java class attributes:
 
 ```java
 @Select("Select personId, name from Person where personId=#{personId}")
@@ -32,7 +32,9 @@ public Person getPerson(Integer personId);
 public Person getPersonById(Integer personId);
 ```
 
-* _**@Result**_ – it represents a single instance of _Result_ out of the list of results retrieved from _@Results._ It includes the details like mapping from database column to Java bean property, Java type of the property and also the association with other Java objects:
+### _**@Result**_ 
+
+It represents a single instance of _Result_ out of the list of results retrieved from _@Results._ It includes the details like mapping from database column to Java bean property, Java type of the property and also the association with other Java objects:
 
 ```java
 @Results(value = {  
@@ -44,7 +46,9 @@ public Person getPersonById(Integer personId);
 public Person getPersonById(Integer personId);
 ```
 
-* _**@Many** –_ it specifies a mapping of one object to a collection of the other objects:
+### _**@Many**_ 
+
+It specifies a mapping of one object to a collection of the other objects:
 
 ```java
 @Results(value ={  
@@ -63,7 +67,9 @@ public Address getAddresses(Integer personId);
 
 Similar to _@Many_ annotation, we have _@One_ annotation which specifies the one to one mapping relationship between objects.
 
-* _**@MapKey** –_ this is used to convert the list of records to _Map_ of records with the key as defined by _value_ attribute:
+### _**@MapKey**_ 
+
+This is used to convert the list of records to _Map_ of records with the key as defined by _value_ attribute:
 
 ```java
 @Select("select * from Person")
@@ -71,7 +77,9 @@ Similar to _@Many_ annotation, we have _@One_ annotation which specifies the one
 public Map<Integer, Person> getAllPerson();
 ```
 
-* _**@Options** –_ this annotation specifies a wide range of switches and configuration to be defined so that instead of defining them on other statements we can _@Options_ to define them:
+### _**@Options**_
+
+This annotation specifies a wide range of switches and configuration to be defined so that instead of defining them on other statements we can _@Options_ to define them:
 
 ```java
 @Insert("Insert into address (streetAddress, personId)" +
