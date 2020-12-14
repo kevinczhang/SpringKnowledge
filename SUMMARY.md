@@ -67,6 +67,7 @@
 ---
 
 * [Coherence](coherence/README.md)
+  * [Configuring Caches](coherence/configuring-caches.md)
   * [Querying](coherence/querying.md)
 
 ## Database

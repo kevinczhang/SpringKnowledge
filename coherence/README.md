@@ -17,7 +17,7 @@ Coherence is organized as set of services. At the root is the Cluster service. A
 
 ### Distributed Caches
 
-A distributed, or partitioned, cache is a clustered, fault-tolerant cache that has linear scalability.Data is partitioned among all storage members of the cluster. For fault-tolerance, partitioned caches can be configured to keep each piece of data on one or more unique computers within a cluster. Distributed caches are the most commonly used caches in Coherence.
+A distributed, or partitioned, cache is a clustered, fault-tolerant cache that has linear scalability. Data is partitioned among all storage members of the cluster. For fault-tolerance, partitioned caches can be configured to keep each piece of data on one or more unique computers within a cluster. Distributed caches are the most commonly used caches in Coherence.
 
 #### Get and put operations:
 
